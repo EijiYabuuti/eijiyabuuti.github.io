@@ -1,0 +1,41 @@
+
+
+file:///C:/Users/Eiji/Documents/Cursos/Udemy/GitHubPages/index.html
+
+
+
+
+
+*** inicializar repositório, que está vazio.
+git init
+--> Initialized empty Git repository in C:/Users/Eiji/documents/Cursos/Udemy/githubpages/.git/
+
+
+*** adicionar endereço do repositório.
+git remote add origin https://github.com/EijiYabuuti/eijiyabuuti.github.io.git
+
+
+*** adicionar arquivos numa área chamada de "stage". 
+git add .
+
+
+*** lista os novos arquivos
+git status
+
+
+*** devemos dar commit, com comentários: "Arquivos iniciais".
+git commit -m "Arquivos iniciais"
+--> [master (root-commit) bed7399] Arquivos iniciais
+-->  4 files changed, 17 insertions(+)
+-->  create mode 100644 Imagens/eijis.jpg
+-->  create mode 100644 Imagens/perfil.gif
+-->  create mode 100644 Imagens/perfil.jpg
+-->  create mode 100644 index.html
+
+
+git config --global user.email "eijiyabuuti@gmail.com"
+git config --global user.name "eijiyabuuti"
+
+
+
+
